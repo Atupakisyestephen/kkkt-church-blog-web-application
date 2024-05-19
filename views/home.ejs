@@ -1,0 +1,96 @@
+
+<%- include("partials/header"); -%>
+
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+    <main class="container">
+      <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+        <div class="col-lg-6 px-0">
+          <h1 class="display-4 fst-italic">KKKT Usharika wa Upendo Jiwe Kuu</h1>
+          <p class="lead my-3">Welcome to our online sanctuary, where faith meets the digital realm. At KKKT Usharika wa Upendo Jiwe Kuu, we strive to create a virtual space that reflects the warmth and inclusivity of our physical community.</p>
+        
+        </div>
+      </div>
+    
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary-emphasis">Praise & Worship Team</strong>
+              <h3 class="mb-0">Featured post</h3>
+              <div class="mb-1 text-body-secondary">Oct 09</div>
+              <p class="card-text mb-auto">Kikundi chetu cha kusifu na kuabudu kinajitolea kwa moyo wote kuleta utukufu kwa jina la Bwana wetu. Tunakusanyika kwa umoja na shauku, tukiimba na kumsifu Mungu wetu kwa nyimbo za moyo.</p>
+              
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="/img5.jpg" width="250"  preserveAspectRatio="xMidYMid slice" focusable="false" rect width="100%" height="100%" >
+            </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success-emphasis">KKKT Vijana</strong>
+              <h3 class="mb-0">Vijana Usharikani</h3>
+              <div class="mb-1 text-body-secondary">June 26</div>
+              <p class="mb-auto">Wanaonesha mfano wa mwanga na upendo wa Kristo katika kila hatua. Tunajivunia kuwa na vijana wa kike na wa kiume wenye moyo wa kujitolea na kutumikia kwa bidii katika Usharika wa Upendo Jiwe Kuu.</p>
+              
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              
+              <img src="/img1.jpg" width="250"  preserveAspectRatio="xMidYMid slice" focusable="false" rect width="100%" height="100%" >
+            </div>
+          </div>
+        </div>
+        </div>
+        
+      
+    
+      <div class="row g-5">
+        <div class="col-md-8">
+          
+    
+          <article class="blog-post">
+            <h2 class="display-5 link-body-emphasis mb-1">Kukubaliana na Mabadiliko Maishani</h2>
+            <p class="blog-post-meta">March 5, 2024 by Atupakisye</p>
+    
+            <p>Maisha yana mzunguko wake, kama vile majira yanavyobadilika. Ni muhimu kutambua ukweli huu na kukubaliana na mabadiliko yanapotokea. Kama joto la jua linavyochukua nafasi ya baridi, vivyo hivyo matatizo na furaha huja na kwenda. </p>
+            <hr>
+            <p>Kukubaliana na mzunguko wa maisha kunaweza kutuletea amani na utulivu, tukitambua kuwa kila hali ina kusudi lake. Hivyo basi, tuwe tayari kufuata mwenendo wa maisha na kujifunza kutokana na kila awamu.</p>
+          
+            
+                  </article>
+    
+          
+    
+        </div>
+    
+        <div class="col-md-4">
+          <div class="position-sticky" style="top: 2rem;">
+            <div class="p-4 mb-3 bg-body-tertiary rounded">
+              <h4 class="fst-italic">About</h4>
+              <p class="mb-0">Welcome to our online community at KKKT Usharika wa Upendo Jiwe Kuu Church! We are a vibrant congregation dedicated to fostering spiritual growth, genuine connections, and a shared journey of faith. Our mission is to create a welcoming space where individuals from all walks of life can come together to explore and deepen their relationship with God.</p>
+            </div>
+    
+            
+    
+          </div>
+        </div>
+      </div>
+    
+    </main>
+
+
+  <%  posts.forEach(function(post){ %>
+
+    <h1><%=post.title%></h1>
+    <p>
+    <%=post.content.substring(0, 100) + " ..."%>
+    <a href="/posts/<%=post._id%>">Read More</a>
+    </p>
+
+
+    <% }) %>
+
+
+<%- include("partials/footer"); -%>
