@@ -4,10 +4,10 @@ Features<br />
 -Home page displays all blog posts. <br />
 -Create new posts on the "Compose" page. <br />
 -View individual posts on their own pages.<br /><br />
-Technologies Used
--Backend: Node.js, Express
--Frontend: EJS for templating
--Database: MongoDB (local or cloud-based with MongoDB Atlas)
+Technologies Used<br />
+-Backend: Node.js, Express<br />
+-Frontend: EJS for templating<br />
+-Database: MongoDB (local or cloud-based with MongoDB Atlas)<br />
 -Other: Body-parser for handling form data
 ![1](https://github.com/user-attachments/assets/7971d6d7-8053-4a3c-8c91-4515cbdf5b84)
 ![2](https://github.com/user-attachments/assets/48c2a81b-6d1d-4853-ade3-d86f4fe5a3d7)
