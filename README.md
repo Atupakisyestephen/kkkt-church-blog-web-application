@@ -1,9 +1,9 @@
 # kkkt-church-blog-web-application
-This is a web application built using Node.js, Express, EJS, and MongoDB for a church blog. Users can create, view, and read posts.<br/>
+This is a web application built using Node.js, Express, EJS, and MongoDB for a church blog. Users can create, view, and read posts.<br/><br />
 Features<br />
 -Home page displays all blog posts. <br />
 -Create new posts on the "Compose" page. <br />
--View individual posts on their own pages.<br />
+-View individual posts on their own pages.<br /><br />
 Technologies Used
 -Backend: Node.js, Express
 -Frontend: EJS for templating
