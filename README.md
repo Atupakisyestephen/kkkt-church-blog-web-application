@@ -18,6 +18,7 @@ Prerequisites
 -MongoDB (You can use either a local MongoDB instance or MongoDB Atlas for a cloud-based solution.)
 Installation
 1.Clone this repository:
+git clone https://github.com/Atupakisyestephen/kkkt-church-blog-web-application.git
 
 2.Navigate to the project folder:
 cd kkkt-church-blog-web-application-main
